@@ -1,0 +1,46 @@
+.tit_sub01{
+    color:#222;
+    font-size: 24px;
+    margin-top:30px;
+ 
+
+}
+.tit_sub02{
+    color:#999;
+
+    
+
+}
+#login_wrap{
+    width:100%;  height: 300px; border: 1px solid lightblue;
+   margin-top: 50px;
+  
+}
+#login_wrap table {   
+    margin: 0 auto;
+    width:100%;
+    margin-top:10%;    
+    padding-bottom: 50px;
+    position:relative;
+}
+#login_wrap table::after{
+    content: "";
+    position:absolute;
+    left:0; bottom:-60%;
+    width:100%;
+    height: 1px;
+    background-color: lightgray;
+}
+
+#login_wrap table > tr{
+    width: 70%;
+    
+}
+#login_wrap table > tr > td > div {
+    width: 100%; background-color: red;
+    display: inline-block;
+
+
+    
+
+}
