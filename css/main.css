@@ -108,12 +108,71 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
+.text-left{
+  text-align: left;
+}
 /* 캐러셀 */
+.btn1{
+  margin-top: 10px;
+  width: 200px;
+  height: 40px;
+  background-color: none;
+  border: 0;
+  border-radius: 10px;
+  transition: all 0.7s;
+}
 
+.btn1:hover{
+  border: 0;
+  color: white;
+  background-color: rgb(104, 104, 251);
+}
 /* 섹션2 */
+.section{
+  background-color: rgb(242, 241, 241);
+  text-align: center;
+  margin-top: 50px;
+  padding:100px;
+  width: 100%;
+  height: auto;
+}
+.btn2{
+  margin-top: 10px;
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  border-radius: 10px;
+  transition: all 0.7s;
+}
 
+.btn2:hover{
+  border: 0;
+  color: white;
+  background-color: rgb(104, 104, 251);
+}
 /* 섹션3 */
+.section3{
+  padding: 10px;
+  margin-top: 100px;
+  text-align: center;
+  background-color: rgb(242, 241, 241);
+}
+.imggroup{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.imggroup > img{
+  margin: 10px;
+  width: 500px;
+  transition: all 0.7s;
+}
+
+.imggroup > img:hover{
+  opacity: 0.5;
+  width: 500px;
+}
 
 /* 섹션4 */
 
