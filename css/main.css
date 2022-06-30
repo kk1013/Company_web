@@ -265,9 +265,55 @@
 
 
 /* 섹션4 */
+.wrap{
+  text-align: center;
+  margin-top: 30px;
+}
 
+.tag{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.textbar{
+  width: 20%;
+  margin: 30px;
+  display: flex;
+  flex-flow: column nowrap;
+  height: auto;
+  background-color: white;
+}
+
+.textbar > #text{
+  text-align: left;
+  padding: 10px;
+  border:1px solid rgb(217, 216, 216);
+  background-color: white;
+  color: rgb(131, 131, 131);
+  padding-top: 20px;
+}
+
+.textbar > #text > p:nth-child(1){
+  font-weight: bold;
+}
+
+.textbar > img {
+  transition: all 0.7s;
+}
+
+.textbar:hover > img{
+  filter: brightness(50%);
+}
 /* 섹션5 */
-
+#section5{
+  background: url("/img/visual04.jpg");
+  height: 300px;
+}
+#section5 > div{
+  color:white;
+  padding: 90px;
+}
 
 /* 섹션6 */
 
