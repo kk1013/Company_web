@@ -325,8 +325,76 @@
   background-color:#333;
   position:relative;
   bottom:0; left:0;
+  padding-top: 20px;
+ 
 }
-.policy ul li{
-  color: white; font-size:11px;
+.policy ul{
+  width: 100%;
+  margin:0 auto;
+  height:50px;
 }
 
+.policy ul li{
+  width:20%; height:20px; line-height:20px;
+  float:left; color: white; font-size:11px;
+  list-style:none;
+  box-sizing:border-box;
+}
+.policy ul li a{
+  color:white;
+  font-size:12px;
+  
+}
+.footerLogoList{
+  width:80%; height: 50px; 
+  list-style: none;
+ 
+  position: relative;
+  margin:0 auto;
+}
+
+.footerLogoList{
+  width: 160px; 
+  margin: 0 auto;
+  text-align: center;
+}
+.footerLogoList li{
+  width:40px;  
+  float:left;
+  
+}
+.comanyAdress{
+  color: #999999;
+  font-size: 13px;
+}
+
+/* 테블릿 */
+@media screen and (min-width: 768px) and (max-width: 959px) {
+
+
+}
+/* 모바일 */
+@media screen and (max-width: 767px) and (orientation: portrait) {
+  .policy ul{
+    width:80%;
+  }
+  .policy > ul > li:nth-child(1){
+    display: block;
+    width:50%;
+  
+  }
+  .policy > ul > li:nth-child(2){
+    display: none;
+    
+  }
+  .policy > ul > li:nth-child(3){
+    display: block;
+    width:50%;
+  }
+  .policy > ul > li:nth-child(4){
+    display: none;
+  }
+  .policy > ul > li:nth-child(5){
+    display: none;
+  }
+}
