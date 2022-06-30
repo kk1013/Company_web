@@ -1,7 +1,7 @@
 .login_container{
     width:800px;
-    margin:0 auto;
-    position:relr
+    margin:0 auto;   
+    margin-bottom:70px;
 
 
 }
@@ -42,7 +42,7 @@
     background-color: lightgray;
 }
 
-#login_wrap table  tr{
+#login_wrap table tr{
     width:80%;
    font-weight: bold;
    font-size: 0.8em;
@@ -68,7 +68,7 @@
     border-style: none !important;
     vertical-align: center;
     margin-top: 7px;
-    img
+    
 
     /* style="border-style: none !important" */
 } 
