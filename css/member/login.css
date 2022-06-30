@@ -1,3 +1,12 @@
+.login_container{
+    width:800px;
+    margin:0 auto;
+    position:relr
+
+
+}
+
+
 .tit_sub01{
     color:#222;
     font-size: 24px;
@@ -12,16 +21,17 @@
 
 }
 #login_wrap{
-    width:100%;  height: 300px; border: 1px solid lightblue;
+    width:100%;  height: 300px; border: 1px solid silver;
    margin-top: 50px;
   
 }
 #login_wrap table {   
     margin: 0 auto;
     width:100%;
-    margin-top:10%;    
+    margin-top:7%;    
     padding-bottom: 50px;
     position:relative;
+  
 }
 #login_wrap table::after{
     content: "";
@@ -32,15 +42,82 @@
     background-color: lightgray;
 }
 
-#login_wrap table > tr{
-    width: 70%;
+#login_wrap table  tr{
+    width:80%;
+   font-weight: bold;
+   font-size: 0.8em;
+}
+
+#login_wrap table tr td:first-child{    
+    width:20%; padding-right:10px;
+    text-align:right;
+}
+#login_wrap table tr td:nth-child(2){
+    width:30%;
+}
+#login_wrap input[title=login]{
+    background-color: rgba(236, 236, 236, 0.3);
+    border:1px solid silver;
+    width:95%;
     
 }
-#login_wrap table > tr > td > div {
-    width: 100%; background-color: red;
-    display: inline-block;
-
-
-    
-
+#login_wrap input[title=login]:first-child{
+    margin-bottom: 5px;
 }
+.loginbtn_img{
+    border-style: none !important;
+    vertical-align: center;
+    margin-top: 7px;
+    img
+
+    /* style="border-style: none !important" */
+} 
+#login_wrap table tr td:last-child{    
+    width:20%; padding-right:20%;
+    box-sizing:border-box;
+}
+
+#login_wrap table tr td div {
+    width:100%;
+}
+
+/* 아이디 비밀번호 찾기 랩은 find */
+.find{
+    width:100%;
+    margin-top:10%;
+    text-align: center;
+    font-size: 0.8em;
+}
+.find > p{
+   
+    height:15px;
+}
+
+
+
+/* 테블릿 */
+@media screen and (min-width: 768px) and (max-width: 959px) {
+    .login_container{
+      width:100%;
+    }
+    #login_wrap table{
+        margin-top:7%;
+    }
+    #login_wrap{
+        height:280px;
+    }
+  
+  }
+  /* 모바일 */
+  @media screen and (max-width: 767px) and (orientation: portrait) {
+    .login_container{
+      width:95%; 
+    }
+    #login_wrap{
+        height: 250px;
+    }
+    .find{
+        margin-top:13%;
+    }
+
+  }
