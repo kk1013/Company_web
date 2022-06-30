@@ -113,11 +113,13 @@
 }
 /* 캐러셀 */
 .btn1{
+  color: white;
+  background-color: transparent;
   margin-top: 10px;
   width: 200px;
   height: 40px;
   background-color: none;
-  border: 0;
+  border: 1px solid white;
   border-radius: 10px;
   transition: all 0.7s;
 }
@@ -127,6 +129,29 @@
   color: white;
   background-color: rgb(104, 104, 251);
 }
+
+.lineUp {
+  animation: 3s anim-lineUp ease-out infinite;
+  animation-iteration-count: 1;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
 /* 섹션2 */
 .section{
   background-color: rgb(242, 241, 241);
@@ -157,22 +182,87 @@
   text-align: center;
   background-color: rgb(242, 241, 241);
 }
+
 .imggroup{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
 
-.imggroup > img{
-  margin: 10px;
-  width: 500px;
+.imggroup > .img{
   transition: all 0.7s;
 }
 
-.imggroup > img:hover{
-  opacity: 0.5;
+.imggroup > .img > div{
+  padding: 90px;
+  transition: all 0.7s;
+  opacity: 0;
+}
+
+.imggroup > .img > div > button{
+  width: 70px;
+  height: 40px;
+  border: 1px solid white;
+  background-color:transparent;
+  color:white;
+}
+
+.imggroup > .img:hover > div{
+  font-size: 30px;
+  color: white;
+  opacity: 1;
+}
+
+.imggroup > .img:hover{
+  filter: brightness(50%);
   width: 500px;
 }
+#img1{
+  background-image: url('/img/value1.jpg');
+  background-size: 100% 100%;
+  margin: 10px;
+  width: 500px;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+
+#img2{
+  background-image: url("/img/value2.jpg");
+  background-size: 100% 100%;
+  margin: 10px;
+  width: 500px;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+
+#img3{
+  background-image: url('/img/value3.jpg');
+  background-size: 100% 100%;
+  margin: 10px;
+  width: 500px;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+
+#img4{
+  background-image: url('/img/value4.jpg');
+  background-size: 100% 100%;
+  margin: 10px;
+  width: 500px;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+
+#img5{
+  background-image: url('/img/value5.jpg');
+  background-size: 100% 100%;
+  margin: 10px;
+  width: 500px;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+
+
 
 /* 섹션4 */
 
