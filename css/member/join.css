@@ -1,4 +1,146 @@
 /* join 1 */
+.join_container{
+    width:800px;
+    margin:0 auto;   
+    margin-bottom:70px;
 
+
+}
+
+
+.tit_sub01{
+    color:#222;
+    font-size: 24px;
+    margin-top:30px;
+ 
+
+}
+.tit_sub02{
+    color:#999;
+
+    
+
+}
+.welcom{
+    width:100%; height:150px;
+    border:1px solid silver;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;    
+    margin-top: 30px;
+    padding-left:20px;
+    box-sizing:border-box;
+
+}
+.welcom p {
+    width:100%;
+}
+
+.welcom >p:first-child{    
+    font-size:1.3em;
+    margin-top:3%;
+    color:#555555;
+   
+}
+.welcom >p:last-child{
+    color:#787878;
+    margin-top:-7%;
+  
+}
+.joinboxWrap{
+    /* border:1px solid silver; */
+    margin-top:30px;
+    display:flex;
+    flex-flow:row wrap;
+    
+    align-items: center;
+}
+.joinboxWrap >table{
+    margin:0 auto;
+    text-align:center;
+    
+}
+
+.joinboxWrap input[type=text]{
+    background-color:rgb(240, 240, 240); 
+    margin-top:5px;
+    border: 1px solid silver;
+    box-sizing:border-box;
+    margin-right:10px;
+}
+.joinboxWrap table tr td div{
+    width:100%; height:100%;
+    display: flex;
+    text-align:center;
+    align-items: center;
+    border:1px solid silver;
+    border-radius:5px;
+    /* background-color: red; */
+}
+
+
+
+.joinboxWrap input[type=text]:first-child{    
+   /* 다시 타게팅해야된다 css적용x */
+}
+.joinboxWrap >table tr td:first-child{
+    /* 잡힘 */
+    
+    border:1px solid red;
+
+}
+
+.joinboxWrap >table tr td:last-child{
+    width:70px; height:70px;
+    border-radius:5px;
+    border:1px solid silver;
+    /* margin-left:50px !important; */
+    box-sizing:border-box;
+}
 /* join 2 */
 
+
+
+
+
+
+
+/* join - 1 반응형 */
+/* 테블릿 */
+@media screen and (min-width: 768px) and (max-width: 959px) {
+    .join_container{
+      width:95%;
+    }
+    .welcom >p:first-child{    
+        font-size:1em;
+        margin-top:3%;
+    }
+    .welcom >p:last-child{     
+        font-size:0.8em;  
+        margin-top:-8%;      
+        
+    }
+    
+
+
+
+
+  }
+  /* 모바일 */
+  @media screen and (max-width: 767px) and (orientation: portrait) {
+    .join_container{
+      width:95%; 
+    }
+    .welcom >p:first-child{    
+        font-size:1em;
+        margin-top:3%;    
+    }
+    .welcom >p:last-child{     
+        font-size:0.8em;        
+        margin-top:-8%;    
+    }
+
+
+
+
+  }
