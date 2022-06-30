@@ -116,8 +116,9 @@
   margin-top: 10px;
   width: 200px;
   height: 40px;
-  background-color: none;
-  border: 0;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
   border-radius: 10px;
   transition: all 0.7s;
 }
@@ -134,6 +135,28 @@
 
 .mouse-hover:hover > a{
   opacity: 1;
+}
+
+.lineUp {
+  animation: 2s anim-lineUp ease-out infinite;
+  animation-iteration-count: 1;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }
 
 /* 섹션2 */
@@ -325,6 +348,45 @@
   text-align: center;
 }
 
+.notice-board{
+  border: 1px solid rgb(184, 184, 184);
+  width: 400px;
+  color: rgb(133, 133, 133);
+}
+
+.notice-board > div > h3{
+  font-size: 18px;
+}
+
+.notice-board > div >a:link{
+  text-decoration: none;
+  color: rgb(133, 133, 133);
+}
+
+#tbtop{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(184, 184, 184);
+}
+
+#tbtop > h3, a{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#tbmain{
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+#tbmain > ul > li{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-left: 40px;
+}
 /* footer */
 
 .footer{
