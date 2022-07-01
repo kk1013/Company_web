@@ -71,32 +71,44 @@
             <br />
           <!-- 이메일 -->
               <img src="/img/member/img_email.gif" alt="이메일">
-              <input title="input" type="text">
+              <input title="input" type="text" id="email">
           </td>
           <td>
             <!-- 확인 -->              
-              <div>확인</div>
+              <button onclick="GoToEnroll()" style="border:0; background-color:rgb(189, 189, 189);">확인</button>
           </td>
         </tr>
       </table>
     </div>
 
 <script>
-  function GoToEnroll()                
-{                                          
-	var obEmail       = document.getElementById("email");
-	if (!obEmail.value) {             
+function CheckEmail(str)
+{
+     var reg_email = /^([0-9a-zA-Z_\.-]+)@([0-9a-zA-Z_-]+)(\.[0-9a-zA-Z_-]+){1,2}$/;
+     if(!reg_email.test(str)) {
+          return false;
+     }
+     else {
+          return true;
+     }
+}
+
+  function GoToEnroll()
+{
+	var obEmail = document.getElementById("email");
+	if (!obEmail.value) {
 		alert("이메일을 입력하세요!");
-		obEmail.focus();	
+		obEmail.focus();
 		return;
-	}               
-	else   {          
+	}
+	else{
 		if(!CheckEmail(obEmail.value))	{
 			alert("이메일 형식이 잘못되었습니다");
 			obEmail.focus();
 			return;
-		}                
-	}                      
+		}
+	}
+  window.open("joincheck.html", "_blank", "width=430px, height=370px");
 }
 </script>
 
