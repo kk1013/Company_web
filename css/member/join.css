@@ -5,6 +5,7 @@
     margin-bottom:70px;
 
 
+
 }
 
 
@@ -48,54 +49,59 @@
   
 }
 .joinboxWrap{
-    /* border:1px solid silver; */
+    border:1px solid silver;
+    background-color: rgb(235, 235, 235);
+    width:100%; height:200px;
     margin-top:30px;
     display:flex;
-    flex-flow:row wrap;
-    
+    flex-flow:row wrap;    
     align-items: center;
 }
 .joinboxWrap >table{
     margin:0 auto;
     text-align:center;
+
     
 }
 
 .joinboxWrap input[type=text]{
-    background-color:rgb(240, 240, 240); 
+    background-color: rgba(255, 255, 255, 0.8);
+   
     margin-top:5px;
     border: 1px solid silver;
     box-sizing:border-box;
-    margin-right:10px;
+    margin-right:12px;
 }
-.joinboxWrap table tr td div{
-    width:100%; height:100%;
-    display: flex;
-    text-align:center;
-    align-items: center;
-    border:1px solid silver;
-    border-radius:5px;
-    /* background-color: red; */
+.joinboxWrap table > tr > td:nth-child(2){
+    width:100%;
 }
 
 
-
-.joinboxWrap input[type=text]:first-child{    
-   /* 다시 타게팅해야된다 css적용x */
-}
 .joinboxWrap >table tr td:first-child{
-    /* 잡힘 */
-    
-    border:1px solid red;
+    /* 잡힘 */  
+   
 
 }
 
 .joinboxWrap >table tr td:last-child{
     width:70px; height:70px;
-    border-radius:5px;
-    border:1px solid silver;
+    display: flex;
+    margin-top:10px;
+    
+
     /* margin-left:50px !important; */
+    /* box-sizing:border-box; */
+}
+.joinboxWrap >table tr td:last-child div{
+    display: flex;
+    width:60px; height:60px;
+    justify-content:center;
+    align-items: center;
+    border:1px solid silver;
+    border-radius: 5px;    
     box-sizing:border-box;
+    background-color: white;
+    
 }
 /* join 2 */
 
