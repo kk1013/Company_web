@@ -79,21 +79,26 @@
       <!-- 아이디/비밀번호찾기 -->
       <div class="find">
         <p>- 아이디를 잊셨나요?
-          <a><img src="/img/member/btn_id_find.gif" alt=" "></a>
+          <a id="id_find"><img src="/img/member/btn_id_find.gif" alt=" "></a>
         </p>
         <p>- 비밀번호를 잊셨나요?
-          <a><img src="/img/member/btn_pw_find.gif" alt=" "></a>
+          <a id="pw_find"><img src="/img/member/btn_pw_find.gif" alt=" "></a>
         </p>
       </div>
-
-
-
-
-      
     </div>
   </div>
 
+<script>
+  var id = document.getElementById("id_find");
+  id.onclick = function(){
+    window.open("idFind.html", "_blank" , "width=430px, height=370px");
+  }
+  var pw = document.getElementById("pw_find");
+  pw.onclick = function(){
+    window.open("passwordFind.html", "_blank" , "width=430px, height=370px");
+  }
 
+</script>
 
   <!-- 푸터 -->
   <div id="footer"></div>
