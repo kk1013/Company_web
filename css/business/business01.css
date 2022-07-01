@@ -10,8 +10,10 @@
 }
 
 #nav{
-    text-align: center;
-    margin: 30px 80px 30px 80px;
+    text-align: center;    
+    width:100%;
+  
+
 
 }
 #nav > h3{
@@ -20,35 +22,47 @@
 #nav > p{
     color: rgb(153, 153, 153);
     font-size: 17px;
+    text-align:justify;
     margin-bottom: 30px;
+}
+#main{
+    width:100%; 
+    
+    overflow:hidden;
+}
+#section1 > img{
+
 }
 
 #section1{
-    margin: 40px 100px 0 100px;
+    /* margin: 40px 100px 0 100px; */
 }
 #section2{
-    margin: 40px 100px 0 100px;
+    /* margin: 40px 100px 0 100px; */
 }
 #section3{
-    margin: 40px 100px 0 100px;
+    /* margin: 40px 100px 0 100px; */
 }
 #section1 > div{  
-    text-align: left;
+    
     width: 90%;
     margin-top: 30px;
     margin-left: 50px;
+    text-align:justify;
 }
 #section2 > div{  
-    text-align: left;
+    
     width: 90%;
     margin-top: 30px;
     margin-left: 50px;
+    text-align:justify;
 }
 #section3 > div{  
-    text-align: left;
+    text-align:justify;
     width: 90%;
     margin-top: 30px;
     margin-left: 50px;
+    
 }
 
 p {
