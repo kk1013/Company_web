@@ -1,6 +1,6 @@
 .tit_sub01{
     color:#222;
-    font-size: 24px;
+    font-size: 36px;
     margin-top:30px;
 
 }
@@ -61,10 +61,14 @@
 .about_section_right_textbox >ul>li> span {
     color:rgb(182, 60, 60);
 }
+/* 비전스타일 */
 .vision_wrap{
     margin:0 auto;
     text-align: center;
-    margin-top:50px;
+    margin-top:80px;
+    border-bottom:1px solid #999;
+    padding-bottom:80px;
+
 }
 .vision_wrap>h3{
     color: #222;
@@ -88,7 +92,7 @@
     background: color rgb(240, 240, 240);;
     width:24%; list-style: none;
     box-sizing: border-box;
-    border:1px solid silver;
+    border:1px solid #999;
 }
 .vision_list li img{
     margin-top:30px;
@@ -96,7 +100,7 @@
 .vision_title{
     color:#222; 
     font-weight: bold;
-    font-size:18px;
+    font-size:36px;
 }
 .vision_txt{
     color:#999;
@@ -105,44 +109,79 @@
 }
 
 
+
+
+/* 히스토리 스타일 */
+
+
+
+.history_title{
+    color:#222;
+    font-size: 24px;
+    margin-top:30px;
+}   
+
+.history_txt{
+color:#999; 
+margin-bottom:100px;
+} 
+
+
+.history_container{
+    text-align:center;
+    margin-top:80px;
+    
+}
+.content_section{
+    display: flex;
+    border-bottom:1px dotted #999;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+.content_section:last-child{
+    border:none;
+}
 .content_year{
     width: 30%;
     font-size:36px;
     font-weight: bold;
     text-align: left top;
+    
     /* border: 1px solid red; */
 
 }
 
 /* content_year_text */
 .content_year_text{ 
-    width:100%; 
-    background-color: red; 
-}
-
-.content_section{
-    width:100%;
-    display: flex;
-    flex-grow:row wrap ;
+    width:70%; 
+    
 }
 .content_year_text >ul{
     /* line-hitht: */
+    width:100%;    
     display:flex;
+    flex-flow:row wrap;
     align-items: center;
     list-style: none;
-    flex:1 1 0;
-
+    color: #999;
+    
 }
-.content_year_text >ul li{
+
+.content_year_text >ul>li{
+    width:90%; 
     display:flex;
+    flex-basis:100%;
     list-style: none;
-    flex:2 1 0;
+    margin-top: 20px;
 
 }
-.content_year_text>span{
-margin:0 100px;
+.content_year_text >ul>li:first-child{
+    margin-top:0;
+    
 }
-
+.content_year_text >ul>li>span{
+margin-right:15px;
+}
 
 
 
@@ -175,7 +214,7 @@ margin:0 100px;
     }
     .vision_title{
         font-weight: normal;
-        font-size:16px;
+        font-size:36px;
     }
     .vision_txt{
         font-weight: normal;
@@ -230,6 +269,12 @@ margin:0 100px;
         margin-top:10px;
 
     }
-    
+    .content_year{
+        width:100%;
+    }
+    .content_year_text{
+        width:100%;
+    }
+   
 
   }
