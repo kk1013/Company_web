@@ -346,8 +346,15 @@
 .section6{
   margin-top: 30px;
   text-align: center;
-}
 
+}
+.section6 a{
+  color:#555555;
+}
+.section6 a:hover{
+  color:#555555;
+  text-decoration: none;
+}
 #h3p {
   margin: 50px;
 }
@@ -359,8 +366,10 @@
 
 .notice-board{
   border: 1px solid rgb(184, 184, 184);
-  width: 500px;
+  width: 500px; height:200px;
   color: rgb(133, 133, 133);
+  margin-top:10px;
+  
 }
 
 .notice-board > div > h3{
@@ -373,11 +382,23 @@
 }
 
 #tbtop{
-  padding: 10px;
+  padding: 12px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   border-bottom: 1px solid rgb(184, 184, 184);
+ 
+  
+}
+#tbtop >h3{
+  margin-top:5px;
+  box-sizing:border-box;
+
+}
+#tbtop >a{
+  margin-top: 5px;
+  box-sizing: border-box;
+
 }
 
 .h3a{
@@ -392,10 +413,17 @@
 
 #tbmain > div{
   display: flex;
+  height:37px;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items:stretch;
-  padding: 10px;
+  padding:0 20px;  
+  box-sizing: border-box;
+  
+}
+#tbmain > div:first-child{
+  margin-top:15px;
+  
 }
 
 #tbmain > div > a:link{
