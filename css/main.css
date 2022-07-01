@@ -348,9 +348,18 @@
   text-align: center;
 }
 
+#h3p {
+  margin: 50px;
+}
+
+.table{
+  display: flex;
+  justify-content: center;
+}
+
 .notice-board{
   border: 1px solid rgb(184, 184, 184);
-  width: 400px;
+  width: 500px;
   color: rgb(133, 133, 133);
 }
 
@@ -364,29 +373,91 @@
 }
 
 #tbtop{
+  padding: 10px;
   display: flex;
   flex-flow: row nowrap;
-  align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid rgb(184, 184, 184);
 }
 
-#tbtop > h3, a{
-  font-size: 16px;
+.h3a{
+  font-size: 20px;
   font-weight: bold;
 }
 
-#tbmain{
-  display: flex;
-  flex-flow: column nowrap;
+.table > a{
+  text-decoration: none;
+  color: rgb(184, 184, 184);
 }
 
-#tbmain > ul > li{
+#tbmain > div{
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  margin-left: 40px;
+  align-items:stretch;
+  padding: 10px;
 }
+
+#tbmain > div > a:link{
+  color: rgb(150, 150, 150);
+}
+
+.boxmain{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+#box1:hover{
+  opacity: 0.8;
+}
+#box2:hover{
+  filter: brightness(90%);
+}
+#box3:hover{
+  filter: brightness(90%);
+}
+
+.box{
+  text-align: center;
+  padding: 30px 20px 0 20px;
+  color:white;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+#box1{
+  background-color: rgb(1, 1, 163);
+  margin-left: 30px;
+  transition: all 0.7s;
+}
+.box > h5{
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.box > p{
+  font-size: 13px;
+}
+
+#box2{
+  background-color: rgb(3, 194, 194);
+  transition: all 0.7s;
+}
+#box3{
+  background-color: rgb(142, 142, 142);
+  transition: all 0.7s;
+}
+
+
+
+
+
+
+
+
 /* footer */
 
 .footer{
