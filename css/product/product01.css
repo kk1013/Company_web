@@ -32,3 +32,12 @@
 
     margin-left: 20%;
 }
+#lang{
+    color: rgb(134, 134, 134);
+    border: 1px solid rgb(199, 199, 199);
+    padding:3px;
+}
+input[type=search]{
+    border: 1px solid rgb(199, 199, 199);
+    padding:3px;
+}

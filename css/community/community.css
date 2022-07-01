@@ -83,3 +83,19 @@
   padding-top: 20px;
   padding-left: 10px;
 }
+
+
+
+
+#searchbar{
+  margin-left: 10%;
+}
+#lang{
+  color: rgb(134, 134, 134);
+  border: 1px solid rgb(199, 199, 199);
+  padding:3px;
+}
+input[type=search]{
+  border: 1px solid rgb(199, 199, 199);
+  padding:3px;
+}
