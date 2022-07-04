@@ -84,8 +84,15 @@
   padding-left: 10px;
 }
 
+#top > p{
+  font-size: 14px;
+  color: rgb(178, 176, 176);
+  margin-bottom: 30px;
+}
 
-
+#top{
+  text-align: center;
+}
 
 #searchbar{
   display: flex;
