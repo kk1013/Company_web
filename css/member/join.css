@@ -45,7 +45,7 @@
 }
 .welcom >p:last-child{
     color:#787878;
-    margin-top:-7%;
+    margin-top:-60px;
   
 }
 .joinboxWrap{
@@ -74,13 +74,6 @@
 }
 .joinboxWrap table > tr > td:nth-child(2){
     width:100%;
-}
-
-
-.joinboxWrap >table tr td:first-child{
-    /* 잡힘 */  
-   
-
 }
 
 .joinboxWrap >table tr td:last-child{
@@ -117,10 +110,41 @@ button{
 
 
 /* join 2 */
+.wrap{
+    width: 80%;
+    margin: auto;
+}
 
+.main > div > p{
+    margin: 20px 0 0 0;
+    font-size: 13px;
+}
 
+.main > div > span{
+    margin-left: 3px;
+    font-size: 13px;
+}
 
+.main > div > textarea{
+    font-size: 12px;
+}
 
+.top{
+    height: 100px;
+    border: 1px solid silver;
+    text-align: center;
+}
+
+#join_check_input{
+    width:80px; height:26px;
+    margin-top:20px;
+    line-height: 26px; 
+    font-size:13px;     
+    
+    border:1px solid silver;
+    box-sizing:border-box;
+    background-color:#f7f3f0;
+}
 
 
 /* join - 1 반응형 */

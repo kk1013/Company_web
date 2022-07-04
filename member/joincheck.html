@@ -1,3 +1,5 @@
+
+<form name="joincheckfrm">
 <div id="joincheck_wrap">
     <h5>회원가입여부 및 실명</h5>
     <div>
@@ -7,12 +9,24 @@
         </p>       
     </div>
 
-    <input id="join_check_input" type="button" value="회원가입"><br>
+    <input id="join_check_input" type="button" onclick="popupSubmit();" value="회원가입"><br>
     <p id="joincheck_close_bg" >
         <input type="button" value="닫기" id="joincheck_close">
     </p>
 </div>
 <!-- <img src="/img/joincheck_btn_bg.jpg" alt="" width="50px";> -->
+</form>
+
+<script>
+     function popupSubmit() {
+    window.opener.name = "joinfrm"; // 부모창의 이름 설정
+    document.joincheckfrm.target = "joinfrm"; // 타켓을 부모창으로 설정
+    document.joincheckfrm.action = "join2.html";  //부모창에 호출될 url 
+    document.joincheckfrm.submit();
+    self.close();
+}
+</script>
+
 
 
 <style>
