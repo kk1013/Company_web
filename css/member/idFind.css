@@ -47,19 +47,12 @@
 
     
 }
-/* #idfindlistWrap{
-    width:100%;
-    display:flex;
-    align-items:center;
-    justify-content: center;
-    flex-flow:row wrap;
-    background-color: #f7f3f0;
-} */
+
 #idfindlistWrap{
     background-color: #f7f3f0 ; 
     width:100%; 
     display: flex;
-    padding-top: 30px;
+    padding-top: 20px;
     box-sizing: border-box;
   
 }
@@ -67,17 +60,12 @@
 
 .idfindlist{
     list-style: none;
-    /* width:100%; 
-    display: flex;
-    flex-flow:row wrap;
-    align-items: center;   */
   
-    
-   
 }
 .idfindlist li{
     width: 100%;
     float:left;
+    height: 30px;
 }
 
 .findIdName{
@@ -86,8 +74,8 @@
 }
 .idfindlist input[type=text]{
     width:50%; float:left;
-    border:1px solid #555;
-    height:18px; margin-top:5px;
+    border:1px solid #888;
+    height:20px; margin-top:5px;
     
 }
 
