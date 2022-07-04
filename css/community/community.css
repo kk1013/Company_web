@@ -88,14 +88,19 @@
 
 
 #searchbar{
-  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20%;
 }
 #lang{
   color: rgb(134, 134, 134);
   border: 1px solid rgb(199, 199, 199);
-  padding:3px;
+  padding:2.85px;
 }
 input[type=search]{
   border: 1px solid rgb(199, 199, 199);
-  padding:3px;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding:2.5px;
 }
