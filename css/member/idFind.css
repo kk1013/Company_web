@@ -1,0 +1,121 @@
+
+#idfind_wrap>h5{
+    background-color: #222;
+    width:100%;
+    height:50px;
+    line-height:50px;
+    color:white;
+   
+    text-indent: 20px;
+}
+/* #idfind_wrap >div{
+
+} */
+#idfind_wrap >div>p{
+    font-size:11px;
+    color:#555;
+    
+}
+#idfind_wrap >p{
+    font-size:13px;
+    padding:10px;
+    
+}
+#idfind_wrap >p::before{
+    content: "·";
+    font-weight: bold;
+}
+
+#idfind_close_bg{
+    position:relative;
+    bottom:0px; right:0px;
+    width:100%;
+    height:35px;    
+    background-color:#f0f0f0 ;   
+    padding-top:5px;
+    box-sizing:border-box;
+   
+}
+#idfind_close{       
+    width:44px; height: 26px;   
+    font-size:13px;
+    text-align: center;
+    border:1px solid silver;
+    box-sizing:border-box;
+    background-color:#f7f3f0 ;
+    float:right; margin-right:20px;
+
+    
+}
+/* #idfindlistWrap{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-flow:row wrap;
+    background-color: #f7f3f0;
+} */
+#idfindlistWrap{
+    background-color: #f7f3f0 ; 
+    width:100%; 
+    display: flex;
+    padding-top: 30px;
+    box-sizing: border-box;
+  
+}
+
+
+.idfindlist{
+    list-style: none;
+    /* width:100%; 
+    display: flex;
+    flex-flow:row wrap;
+    align-items: center;   */
+  
+    
+   
+}
+.idfindlist li{
+    width: 100%;
+    float:left;
+}
+
+.findIdName{
+    width:25%; float:left;
+   
+}
+.idfindlist input[type=text]{
+    width:50%; float:left;
+    border:1px solid #555;
+    height:18px; margin-top:5px;
+    
+}
+
+#idfind_checj_bg{
+    width:100%; height:100px;
+    text-align: center !important;
+    display:flex;
+    flex-flow:row wrap;  
+    justify-content: center;
+    margin-top:30px;
+}
+
+#idfind_close_bg{
+    position:relative;
+    bottom:0px; right:0px;
+    width:100%;
+    height:35px;    
+    background-color:#f0f0f0 ;
+    padding-top:5px;
+    box-sizing:border-box;
+   
+}
+#idfind_close{       
+    width:44px; height: 26px;   
+    font-size:13px;
+    text-align: center;
+    border:1px solid silver;
+    box-sizing:border-box;
+    background-color:white;
+    float:right; margin-right:20px;
+}
