@@ -147,6 +147,147 @@ button{
 }
 
 
+
+
+/* join3 css */
+
+.join_notice{
+    width:100%; height:120px;
+    background-color: #eee;
+    padding: 10px; box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;    
+    margin-top:30px;
+}
+.join_notice >h5{
+    color:#787878;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.join_notice >p{
+    color:#787878;
+    font-size:13px;
+    
+}
+form>h5{
+    font-weight:normal;
+    color:#787878;
+    font-size:16px;
+    margin-top:30px;
+
+}
+#joinfrm_table{
+   
+    display: flex;
+    flex-flow:row wrap;
+    font-size:16px;
+    
+}
+#joinfrm_table tr{
+height:25px; line-height: 25px; 
+}
+
+#joinfrm_table tr td:first-child{
+    
+    width: 20%;
+    
+}
+#joinfrm_table td{
+  padding-left:10px;  
+  height: 25px;
+  box-sizing:border-box;
+  font-size:13px; 
+  align-items: center;
+  
+}
+#joinfrm_table td input{
+    height:20px; margin-right:10px;
+    border:1px solid #ccc;
+    text-indent: 5px;
+}
+#joinfrm_table p{
+    display: inline-block;
+}
+
+#joinfrm_table >td{
+    height: 25px;
+    display:flex;
+    align-items: center;    
+    
+    padding-top:15px;
+    box-sizing: border-box;
+}
+#joinfrm_table .paddinptop20{
+    padding-top: 18px;
+}
+
+#joinfrm_table, tr{
+    border:1px solid #eee;
+    box-sizing:border-box; 
+    
+}
+#joinfrm_table, tr>td:first-child{
+    border-right:1px solid #eee;   
+    border-top: none; 
+    border-left: none;
+   
+}
+#joinfrm_table, tr>td:last-child{
+    border-right:none;
+    border-bottom:none;
+   
+}
+#joinfrm_table tr>td:first-child{
+    background-color:rgb(245, 245, 245);
+   
+    line-height: 25px;
+    padding-top:15px;
+    box-sizing: border-box;
+}
+#joinfrm_table input[type=radio]{
+    /* vertical-align:center; */
+    margin-top:18px;
+    position: relative; top:5px;
+}
+#joinfrm_table td label{
+    /* margin-right:15px; margin-top: -15px; */
+    position:relative;
+    margin-right: 10px; margin-top: -10px;
+}
+#joinfrm_table td label:last-child{
+    margin-right:0; 
+}
+#bottom_title{
+    width:100%; height:30px;
+    color:#787878;
+    font-weight: normal;
+    font-size: 16px;
+    
+    border-bottom: 1px solid #999;
+    margin-top: 30px;
+   
+}
+.bottom {
+    text-align: center;
+    margin-top:20px;
+}
+.bottom input{
+    width:60px; height:30px;
+    border-radius: 0;
+    color:white;
+    border:none;
+    font-size:13px;
+}
+.bottom input:first-child{
+    background-color: #222;
+}
+.bottom input:last-child{
+    background-color: #555555;
+}
+
+
 /* join - 1 반응형 */
 /* 테블릿 */
 @media screen and (min-width: 768px) and (max-width: 959px) {
