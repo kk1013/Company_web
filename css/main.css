@@ -175,10 +175,18 @@
 }
 
 /* 섹션4 */
+.wrap{
+  text-align: center;
+  margin-top: 60px;
+}
+
 
 /* 섹션5 */
-
-
+#section5{
+  margin-top: 30px;
+  background: url("/img/visual04.jpg");
+  height: 300px;
+}
 /* 섹션6 */
 
 /* footer */
