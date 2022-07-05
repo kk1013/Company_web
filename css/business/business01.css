@@ -67,16 +67,20 @@ p {
 
 /* 테블릿 */
 @media screen and (min-width: 768px) and (max-width: 959px) {
+    .business{
+        text-align: center;
+        margin: 0;
+    }
     #section1 > div{  
     
-        width: 90%;
+        width: 100%;
         margin-top: 30px;
         margin-left: 50px;
         text-align:justify;
     }
     #section2 > div{  
         
-        width: 90%;
+        width: 100%;
         margin-top: 30px;
         margin-left: 50px;
         text-align:justify;
@@ -92,6 +96,9 @@ p {
   }
   /* 모바일 */
   @media screen and (max-width: 767px) and (orientation: portrait) {
-
+    .business{
+        text-align: center;
+        margin: 0;
+    }
 
   }
