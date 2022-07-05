@@ -178,54 +178,35 @@ form>h5{
     margin-top:30px;
 
 }
-#joinfrm_table{
-   
-    display: flex;
-    flex-flow:row wrap;
-    font-size:16px;
-    
-}
-#joinfrm_table tr{
-height:25px; line-height: 25px; 
-}
 
 #joinfrm_table tr td:first-child{
-    
     width: 20%;
-    
 }
+
 #joinfrm_table td{
-  padding-left:10px;  
-  height: 25px;
+  padding-left:10px; 
   box-sizing:border-box;
   font-size:13px; 
   align-items: center;
   
 }
 #joinfrm_table td input{
-    height:20px; margin-right:10px;
+    height:18px; margin-right:10px;
     border:1px solid #ccc;
     text-indent: 5px;
 }
-#joinfrm_table p{
-    display: inline-block;
-}
+
 
 #joinfrm_table >td{
-    height: 25px;
     display:flex;
     align-items: center;    
-    
-    padding-top:15px;
+
     box-sizing: border-box;
-}
-#joinfrm_table .paddinptop20{
-    padding-top: 18px;
 }
 
 #joinfrm_table, tr{
     border:1px solid #eee;
-    box-sizing:border-box; 
+    
     
 }
 #joinfrm_table, tr>td:first-child{
@@ -237,22 +218,17 @@ height:25px; line-height: 25px;
 #joinfrm_table, tr>td:last-child{
     border-right:none;
     border-bottom:none;
-   
+     
 }
 #joinfrm_table tr>td:first-child{
-    background-color:rgb(245, 245, 245);
-   
-    line-height: 25px;
-    padding-top:15px;
-    box-sizing: border-box;
+    background-color:rgb(245, 245, 245); 
+    padding-top:10px;  
 }
 #joinfrm_table input[type=radio]{
-    /* vertical-align:center; */
     margin-top:18px;
-    position: relative; top:5px;
+    position: relative; top:3px;
 }
 #joinfrm_table td label{
-    /* margin-right:15px; margin-top: -15px; */
     position:relative;
     margin-right: 10px; margin-top: -10px;
 }
