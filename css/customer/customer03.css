@@ -18,6 +18,11 @@
     color:rgb(144, 144, 144);
     text-decoration: none;
   }
+
+  td > a:visited{
+    color:rgb(144, 144, 144);
+    text-decoration: none;
+  }
   
   td > a:hover{
     color:rgb(92, 92, 92);
