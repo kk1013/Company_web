@@ -348,8 +348,7 @@
 
 .section6{
   margin-top: 30px;
-  text-align: center;
-  background-color: red;
+  text-align: center;  
 
 }
 .section6 a{
@@ -360,7 +359,7 @@
   text-decoration: none;
 }
 #h3p {  
-  background-color: pink;
+  width:100%; 
 }
 
 .table{
@@ -368,17 +367,23 @@
   justify-content: center;
   padding:0 20px 0px 20px;
   box-sizing:border-box;
+  flex-flow: row wrap;
+  width:100%;
+ 
 }
 
 .notice-board{
+  width: 450px; height:200px;
   border: 1px solid rgb(184, 184, 184);
-  width: 40%; height:200px;
-  color: rgb(133, 133, 133);
-  margin-top:10px;
+  padding:20px;
   box-sizing:border-box;
-  display: flex;
-  flex-flow: row wrap;
-  
+
+  color: rgb(133, 133, 133);
+  margin-top:10px;  
+  /* display: flex;
+  flex-flow: row wrap; */
+  background-color: cornsilk; 
+  position:relative; 
 }
 
 .notice-board > div > h3{
@@ -391,60 +396,80 @@
 }
 
 #tbtop{
-  padding: 12px;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
+  position: relative;
   border-bottom: 1px solid rgb(184, 184, 184);
+  width:100%; height:30px;
+  text-align: left;
  
+}
+
+#tbtop >h3>a{
+   
+  box-sizing: border-box;  
+  font-size: 13px;
+  font-weight: normal;
+  float:right;
   
 }
-#tbtop >h3{
-  margin-top:5px;
-  box-sizing:border-box;
 
-}
-#tbtop >a{
-  margin-top: 5px;
-  box-sizing: border-box;
-
-}
 
 .h3a{
-  font-size: 20px;
+  font-size: 18px; 
   font-weight: bold;
+  
 }
 
 .table > a{
   text-decoration: none;
   color: rgb(184, 184, 184);
+  
+ 
 }
+#tbmain{
 
-#tbmain > div{
-  display: flex;
-  height:37px;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items:stretch;
-  padding:0 20px;  
-  box-sizing: border-box;
+  width:100%; height: 60px;
+
   
 }
-#tbmain > div:first-child{
-  margin-top:15px;
-  
+#tbmain ul{
+  width:100%; 
+  list-style: none;
+  text-align:left;
 }
-
-#tbmain > div > a:link{
-  color: rgb(150, 150, 150);
+#tbmain ul li{
+  font-size:1em; height:35px;  
+  margin-top:12px;
+}
+#tbmain ul li:last-child{
+  margin-bottom:0; 
+}
+#tbmain ul li:nth-child(1):after{
+  content: "2019-06-19";
+  font-size:13px;
+  float:right;
+}
+#tbmain ul li:nth-child(2):after{
+  content: "2019-06-20";
+  font-size:13px;
+  float:right;
+}
+#tbmain ul li:nth-child(3):after{
+  content: "2019-06-21";
+  font-size:13px;
+  float:right;
 }
 
 .boxmain{
-  background-color: pink;
-  width:60%;
+
+  width:650px;
+  height:200px;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-around; 
+  align-items: center;
+  margin-top:10px;
+  margin-left:15px;
+  
 }
 
 #box1:hover{
@@ -457,18 +482,23 @@
   filter: brightness(90%);
 }
 
-.box{
+.box{  
+  float:left;
   text-align: center;
-  padding: 30px 20px 0 20px;
+   padding: 30px 20px 0 20px;
+   /* box-sizing: border-box; */
   color:white;
   width: 200px;
   height: 200px;
-  margin: 10px;
+  /* margin: 10px; */
+}
+.box:last-child{
+  margin-right:0px;
 }
 
 #box1{
   background-color: rgb(1, 1, 163);
-  margin-left: 30px;
+  /* margin-left: 30px; */
   transition: all 0.7s;
 }
 .box > h5{
@@ -564,22 +594,31 @@
 }
 /* 섹션6 */
 .notice-board{
-  width: 100%;
-}
-.notice-board{
-  width:100%;
-}
-.boxmain{
-  width:100%;
-}
-.boxmain{ 
-  justify-content:flex-start;
+  width:40%; 
+
+  /* flex-flow:row wrap; */
 }
 
-.box{
-  text-align: center;
-  flex-basis: 30%;
+#tbtop{
+  height:22px;
  
+}
+
+#tbmain ul li{
+  font-size:1em; height:30px;
+  margin-bottom:3px;
+}
+
+.boxmain{
+  width:650px;
+  height: 200px;
+  margin-top:10px; 
+  margin-left:0px; 
+}
+
+.box{ 
+  justify-content:center;
+  width:32%; 
 }
 
 
@@ -601,22 +640,29 @@
 }
 .boxmain{
   width:100%;
+  margin-left:0px; 
 }
 .notice-board{
   width:100%;
-  
+  height: 170px;  
 }
-.box{
-  text-align: center;
-  flex-basis: 30%;
+#tbtop{
+  height:22px;
  
 }
-.boxmain{ 
-  justify-content:flex-start;
+#tbmain ul li{
+  font-size:1em; height:25px;
+  margin-bottom:3px;
 }
-
-/*  */
-
+#tbmain ul li:first-child{
+  margin-top:15px; 
+}
+.box{
+  
+  justify-content:flex-start;
+  width:31%;
+ 
+}
   .policy ul{
     width:80%;
   }
