@@ -1,0 +1,70 @@
+.business{
+    text-align: center;
+    margin: 0 300px 0 300px;
+}
+
+#top > p{
+    font-size: 14px;
+    color: rgb(178, 176, 176);
+    margin-bottom: 30px;
+}
+
+#nav{
+    text-align: center;    
+    width:100%;
+  
+
+
+}
+#nav > h3{
+    padding: 30px;
+}
+#nav > p{
+    color: rgb(153, 153, 153);
+    font-size: 17px;
+    text-align:justify;
+    margin-bottom: 30px;
+}
+#main{
+    width:100%; 
+    
+    overflow:hidden;
+}
+#section1 > img{
+
+}
+
+#section1{
+    /* margin: 40px 100px 0 100px; */
+}
+#section2{
+    /* margin: 40px 100px 0 100px; */
+}
+#section3{
+    /* margin: 40px 100px 0 100px; */
+}
+#section1 > div{  
+    
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align:justify;
+}
+#section2 > div{  
+    
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align:justify;
+}
+#section3 > div{  
+    text-align:justify;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+}
+
+p {
+    color: rgb(153, 153, 153);
+}
