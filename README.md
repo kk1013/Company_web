@@ -39,4 +39,4 @@ Main : 통합
 HAN : 한승구
 SEO : 서지은
 
-Main에서 작업하다가 Push가 꼬일수 있기때문에 따로 Branch를 만들어서 서로에 branch에다가 push하다가 작업이 끝이 났을경우에는 marge로 main에다가 통합을 시키는 방식으로 관리를했습니다.
+Main에서 작업하다가 Push가 꼬일수 있기때문에 따로 Branch를 만들어서 서로에 branch에다가 push하다가 작업이 끝이 났을경우에는 merge로 main에다가 통합을 시키는 방식으로 관리를했습니다.
