@@ -1,0 +1,122 @@
+
+<form name="joincheckfrm">
+<div id="joincheck_wrap">
+    <h5>회원가입여부 및 실명</h5>
+    <div>
+        <p>
+            <span class="orange">등록된 회원이 아닙니다.</span><br />
+            회원으로 가입하시면 보다 다양한 서비스를 받으실 수 있습니다.
+        </p>       
+    </div>
+
+    <input id="join_check_input" type="button" onclick="popupSubmit();" value="회원가입"><br>
+    <p id="joincheck_close_bg" >
+        <input type="button" value="닫기" id="joincheck_close">
+    </p>
+</div>
+<!-- <img src="/img/joincheck_btn_bg.jpg" alt="" width="50px";> -->
+</form>
+
+<script>
+     function popupSubmit() {
+    window.opener.name = "joinfrm"; // 부모창의 이름 설정
+    document.joincheckfrm.target = "joinfrm"; // 타켓을 부모창으로 설정
+    document.joincheckfrm.action = "join2.html";  //부모창에 호출될 url 
+    document.joincheckfrm.submit();
+    self.close();
+}
+</script>
+
+
+
+<style>
+
+
+    
+/* joincheck */
+ html{
+    overflow: hidden;
+}
+body{
+    overflow-x:hidden;
+    overflow-y: hidden;
+
+} 
+
+#joincheck_wrap{
+    
+    width:100%; height:100%;
+    position: relative;
+    top:0; left:0;
+    
+}
+#joincheck_wrap>h5{
+    background-color: #222;
+    width:100%;
+    height:50px;
+    line-height:50px;
+    color:white;
+   
+    text-indent: 20px;
+}
+#joincheck_wrap >div{
+    background-color:#f7f3f0;
+    width:100%; height:80px;
+    display: flex;
+    align-items: center;
+    padding: 20px; 
+    box-sizing:border-box;
+
+}
+#joincheck_wrap >div>p{
+    font-size:13px;
+    color:#333;
+}
+.orange{
+    color:#fe5500 ;
+    font-weight: bold;
+    
+}
+
+#join_check_input{
+    width:80px; height:26px;
+    margin-top:20px;
+    line-height: 26px; 
+    font-size:13px;     
+    /* text-align: center; */
+    position: relative; top:0px; left:35%;
+
+    
+    border:1px solid silver;
+    box-sizing:border-box;
+    background-color:#f7f3f0;
+}
+#joincheck_close_bg{
+    position:relative;
+    bottom:0px; right:0px;
+    width:100%;
+    height:35px;    
+    background-color:#f0f0f0 ;
+    position: relative;
+    right:0px; bottom:0px;
+    padding-top:5px;
+    box-sizing:border-box;
+   
+}
+#joincheck_close{       
+    width:44px; height: 26px;   
+    font-size:13px;
+    text-align: center;
+
+    border:1px solid silver;
+    box-sizing:border-box;
+    background-color:#f7f3f0;
+
+    float:right; margin-right:20px;
+
+    
+}
+
+
+
+</style>
