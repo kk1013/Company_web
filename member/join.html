@@ -43,81 +43,24 @@
         </div>
         <div>
 <<<<<<< HEAD
+<<<<<<< HEAD
           <p><img src="/img/icon-home.png">회원가입</p>
 =======
           <p><img src="/img/icon-home.png"> > 회원가입</p>
 >>>>>>> parent of f8aabf8 (Merge branch 'HAN')
+=======
+          <p><img src="/img/icon-home.png">  회원가입</p>
+>>>>>>> parent of 9386544 (Merge branch 'SEO')
         </div>
       </div>
     </div>
   </div>
 
   <!-- 메인 -->
-  <div class="join_container">
-    <div class="tit_sub01 text-center">회원가입</div>
-    <div class="tit_sub02  text-center">
-        The design and maintenance are excellent.
-    </div>
-      <div class="welcom">
-        <p>OOO사이트에 오신 것을 환영합니다.</p>
-        <p>-이름과 이메일을 입력해 주시면 가입여부를 확인 후 회원가입 절차가 이루어집니다.</p>
-      </div>
+  <!-- 회원가입 -->
+  
 
 
-    <!-- 회원가입 -->
-    <form name="joinfrm">
-    <div class="joinboxWrap">
-      <table>
-        <tr>
-          <td>
-          <!-- 이름 -->
-            <img src="/img/member/img_name.gif" alt="이름">
-            <input title="input" type="text">
-            <br />
-          <!-- 이메일 -->
-              <img src="/img/member/img_email.gif" alt="이메일">
-              <input title="input" type="text" id="email">
-          </td>
-          <td>
-            <!-- 확인 -->              
-              <button onclick="GoToEnroll()" style="border:0; background-color:rgb(189, 189, 189);">확인</button>
-          </td>
-        </tr>
-      </table>
-    </div>
-  </form>
-<script>
-function CheckEmail(str)
-{
-     var reg_email = /^([0-9a-zA-Z_\.-]+)@([0-9a-zA-Z_-]+)(\.[0-9a-zA-Z_-]+){1,2}$/;
-     if(!reg_email.test(str)) {
-          return false;
-     }
-     else {
-          return true;
-     }
-}
-
-  function GoToEnroll()
-{
-	var obEmail = document.getElementById("email");
-	if (!obEmail.value) {
-		alert("이메일을 입력하세요!");
-		obEmail.focus();
-		return;
-	}
-	else{
-		if(!CheckEmail(obEmail.value))	{
-			alert("이메일 형식이 잘못되었습니다");
-			obEmail.focus();
-			return;
-		}
-	}
-  window.open("joincheck.html", "_blank", "width=430px, height=370px");
-}
-</script>
-
-  </div>
   <!-- 푸터 -->
   <div id="footer"></div>
 

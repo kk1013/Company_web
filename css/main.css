@@ -278,6 +278,7 @@
 
 
 /* 섹션4 */
+<<<<<<< HEAD
 .wrap{
   text-align: center;
   margin-top: 30px;
@@ -289,6 +290,8 @@
   flex-flow: row wrap;
   justify-content: center;
 }
+=======
+>>>>>>> parent of 9386544 (Merge branch 'SEO')
 
 .textbar{
   width: 20%;
@@ -324,6 +327,136 @@
 
 .textbar:hover > img{
   filter: brightness(50%);
+  color: rgb(36, 36, 36);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.textbar > #text > p:nth-child(2){
+  margin-top: -10px;
+}
+
+.textbar > .imagebar > img {
+  transition: all 0.7s;
+}
+
+.imagebar{
+  overflow: hidden;
+}
+
+.textbar:hover > .imagebar > img{
+  filter: brightness(50%);
+  transform: scale(1.3);
+}
+/* 섹션5 */
+
+.imggroup > .img > div{
+  padding: 90px;
+  transition: all 0.7s;
+  opacity: 0;
+}
+
+.imggroup > .img > div > button{
+  width: 70px;
+  height: 43px;
+  font-size: 18px;
+  margin-top: -35px;
+  border: 1px solid white;
+  background-color:transparent;
+  color:white;
+}
+
+.imggroup > .img:hover > div{
+  font-size: 30px;
+  color: white;
+  opacity: 1;
+}
+
+.imggroup > .img:hover{
+  filter: brightness(90%);
+  width: 500px;
+}
+#img1{
+  background-image: url('/img/value1.jpg');
+  background-size: 100% 100%;
+  margin: 10px;
+  width: 500px;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+
+#img2{
+  background-image: url("/img/value2.jpg");
+  background-size: 100% 100%;
+  margin: 10px;
+  width: 500px;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+
+#img3{
+  background-image: url('/img/value3.jpg');
+  background-size: 100% 100%;
+  margin: 10px;
+  width: 500px;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+
+#img4{
+  background-image: url('/img/value4.jpg');
+  background-size: 100% 100%;
+  margin: 10px;
+  width: 500px;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+
+#img5{
+  background-image: url('/img/value5.jpg');
+  background-size: 100% 100%;
+  margin: 10px;
+  width: 500px;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+
+
+
+/* 섹션4 */
+.wrap{
+  text-align: center;
+  margin: 90px 0;
+}
+
+.tag{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.textbar{
+  width: 23%;
+  margin: 1%;
+  display: flex;
+  flex-flow: column nowrap;
+  height: auto;
+  background-color: white;
+}
+.textbar:last-child{
+  margin-right:0px;
+}
+
+.textbar > #text{
+  text-align: left;
+  padding: 10px;
+  border:1px solid rgb(217, 216, 216);
+  background-color: white;
+  color: rgb(88, 88, 88);
+  padding-top: 20px;
+}
+
+.textbar > #text > p:nth-child(1){
   color: rgb(36, 36, 36);
   font-weight: bold;
   font-size: 18px;
