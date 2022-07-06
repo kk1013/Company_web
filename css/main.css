@@ -555,8 +555,12 @@
 }
 .policy ul li a{
   color:white;
-  font-size:12px;
+  font-size:13px;
   
+}
+.policy a{
+  color:white !important;
+  font-size:13px;
 }
 .footerLogoList{
   width:80%; height: 50px; 
