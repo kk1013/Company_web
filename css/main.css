@@ -50,7 +50,7 @@
   color: #777777;
 } */
 .topMenu .home {
-  background-image: url(/img/home01.png);
+  background-image: url("../img/home01.png");
   background-repeat: no-repeat;
   background-position: -10% -50%;
 }
@@ -236,7 +236,7 @@
   width: 500px;
 }
 #img1{
-  background-image: url('/img/value1.jpg');
+  background-image: url('../img/value1.jpg');
   background-size: 100% 100%;
   margin: 10px;
   width: 500px;
@@ -245,7 +245,7 @@
 }
 
 #img2{
-  background-image: url("/img/value2.jpg");
+  background-image: url("../img/value2.jpg");
   background-size: 100% 100%;
   margin: 10px;
   width: 500px;
@@ -254,7 +254,7 @@
 }
 
 #img3{
-  background-image: url('/img/value3.jpg');
+  background-image: url('../img/value3.jpg');
   background-size: 100% 100%;
   margin: 10px;
   width: 500px;
@@ -263,7 +263,7 @@
 }
 
 #img4{
-  background-image: url('/img/value4.jpg');
+  background-image: url('../img/value4.jpg');
   background-size: 100% 100%;
   margin: 10px;
   width: 500px;
@@ -272,7 +272,7 @@
 }
 
 #img5{
-  background-image: url('/img/value5.jpg');
+  background-image: url('../img/value5.jpg');
   background-size: 100% 100%;
   margin: 10px;
   width: 500px;
@@ -339,7 +339,7 @@
 }
 /* 섹션5 */
 #section5{
-  background: url("/img/visual04.jpg");
+  background: url("../img/visual04.jpg");
   height: 300px;
   text-align: center;
 }
