@@ -547,11 +547,14 @@
   height:50px;
 }
 
-.policy ul li{
+.policy>ul li{
   width:20%; height:20px; line-height:20px;
-  float:left; color: white; font-size:11px;
+  float:left; color: white; font-size:13px;
   list-style:none;
   box-sizing:border-box;
+}
+.policy>ul li a {
+  color: white;
 }
 
 .footerLogoList{
@@ -666,14 +669,7 @@
   .policy ul{
     width:80%;
   }
-  .policy ul li a{
-    color:white;
-    font-size:13px;
-  }
-  .policy ul li a:hover{
-    color:white;
-    text-decoration: none;
-  }
+
   .policy > ul > li:nth-child(1){
     display: block;
     width:40%;
