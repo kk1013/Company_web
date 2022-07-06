@@ -553,6 +553,9 @@
   list-style:none;
   box-sizing:border-box;
 }
+.policy ul li a {
+  color: white;
+}
 
 .footerLogoList{
   width:80%; height: 50px; 
