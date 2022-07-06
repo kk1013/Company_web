@@ -547,13 +547,13 @@
   height:50px;
 }
 
-.policy ul li{
+.policy>ul li{
   width:20%; height:20px; line-height:20px;
   float:left; color: white; font-size:13px;
   list-style:none;
   box-sizing:border-box;
 }
-.policy ul li a {
+.policy>ul li a {
   color: white;
 }
 
