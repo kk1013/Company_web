@@ -670,6 +670,14 @@
   .policy ul{
     width:80%;
   }
+  .policy ul li a{
+    color:white;
+    font-size:13px;
+  }
+  .policy ul li a:hover{
+    color:white;
+    text-decoration: none;
+  }
   .policy > ul > li:nth-child(1){
     display: block;
     width:40%;
