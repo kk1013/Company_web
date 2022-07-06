@@ -555,8 +555,12 @@
 }
 .policy ul li a{
   color:white;
-  font-size:12px;
+  font-size:13px;
   
+}
+.policy a{
+  color:white !important;
+  font-size:13px;
 }
 .footerLogoList{
   width:80%; height: 50px; 
@@ -669,6 +673,14 @@
 }
   .policy ul{
     width:80%;
+  }
+  .policy ul li a{
+    color:white;
+    font-size:13px;
+  }
+  .policy ul li a:hover{
+    color:white;
+    text-decoration: none;
   }
   .policy > ul > li:nth-child(1){
     display: block;
